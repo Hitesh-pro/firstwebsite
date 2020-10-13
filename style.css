@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  width: 110px;
+  border: white;
+  border-radius: 60px;
+}
+.myimg {
+  width: 100px;
+  border: solid white;
+  border-radius: 60px;
+  margin-top: 15px;
+  margin-left: 80px;
+}
+.navbar {
+
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 330px;
+  position: sticky;
+  top: 1px;
+  cursor: pointer;
+  transition: all 0.01s ease-out;
+}
+.leftnav {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.leftnav li {
+  padding: 10px;
+}
+.leftnav li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.leftnav li a:hover, .leftnav li a.active {
+  color: grey;
+  text-decoration: underline;
+}
+
+
+.rightnav {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7)URL("../img/logo.jpeg");
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+.boxmain {
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.shalf {}
+
+.firstsection {
+  height: 100vh;
+}
+.fhalf {
+  width: 80%;
+  justify-content: center;
+  padding-left: 50px;
+}
+.buttons {
+  padding-top: 15px;
+  padding-left: 35px;
+}
+.textbig {
+  padding-left: 15px;
+  /* padding-top: 5px; */
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+.htext {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+.btn {
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.btn-sm {
+  font-size: 17px;
+  background: none;
+  color: white;
+}
+.secondsec {
+  padding-top: 50px;
+  height: 70vh;
+  background-color: grey;
+}
+.learningmat {}
+.learn {
+  text-align: center;
+  background-color: grey;
+}
+.thumbnail {
+  width: 360px;
+  height: 200px;
+}
+.head {
+  text-align: center;
+}
+.material {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.material li {
+  padding: 20px;
+}
+.material li a {
+  text-decoration: none;
+  list-style: none;
+  color: red;
+}
+.material li a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.Copy {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
+.hnav-resp {
+  height: 55px;
+}
+.vclass-resp {
+  visibility: hidden;
+}
